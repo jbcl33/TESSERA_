@@ -1,6 +1,6 @@
-# 百衲 / BAINA
+# 百衲
 
-站名 **百衲_BAINA**。嵌入式方向工作室的聚合站：首页 / 成员 / 关于 三页，成员个人站索引 + 团队介绍。
+站名 **百衲_**。嵌入式方向工作室的聚合站：首页 / 成员 / 关于 三页，成员个人站索引 + 团队介绍。
 
 - 线上：https://jbcl33.github.io/TESSERA_/
 - 仓库：https://github.com/jbcl33/TESSERA_ （默认分支 `main`，GitHub Pages 从 `main` 根目录发布）
