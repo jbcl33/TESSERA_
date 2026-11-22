@@ -2,6 +2,9 @@
 
 嵌入式方向工作室的聚合站：首页 / 成员 / 关于 三页，成员个人站索引 + 团队介绍。
 
+- 线上：https://jbcl33.github.io/TESSERA_/
+- 仓库：https://github.com/jbcl33/TESSERA_ （默认分支 `main`，GitHub Pages 从 `main` 根目录发布）
+
 风格参照 `C:\Users\Administrator\Projects\SIGNAL-NOISE`（GitHub `jbcl33/SIGNAL-NOISE`）首页：
 深色终端、等宽字体、box-drawing 方框、用 C 源码表达导航，**无 JavaScript**。
 
@@ -81,5 +84,8 @@ assets/favicon.ico            16/32/48/64 多尺寸图标（透明底）
 
 ## 部署
 
-任何静态托管都能放，无构建步骤。GitHub Pages：仓库根目录直接放这些文件，
-Settings → Pages → Branch: main / root 即可。
+已经接上 GitHub Pages：推送到 `main` 后自动发布，约 1 分钟生效。
+
+- 站点：https://jbcl33.github.io/TESSERA_/
+- 设置：Settings → Pages → Source = `Deploy from a branch`，Branch = `main`，目录 `/ (root)`
+- 无构建步骤，推什么就上什么；改了 `index.html` 直接 push 即可
