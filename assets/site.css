@@ -4,7 +4,9 @@ body{margin:0}
 main{width:min(100%,720px);margin:auto;padding:34px 28px 38px}
 p,h1,h2{margin:0}
 .prompt{font-size:12px;line-height:1.6;color:#aaa;overflow-wrap:anywhere}
-h1{font-size:clamp(26px,5.5vw,43px);letter-spacing:-.055em;line-height:1.1;margin:0;white-space:nowrap}
+/* 品牌字：Latin 用 Consolas，中文用黑体（方形无衬线）；
+   全局 font-synthesis:none 会挡掉黑体的粗体，所以 h1 单独允许合成粗 */
+h1{font-family:Consolas,"SFMono-Regular","Liberation Mono","SimHei","Heiti SC","Noto Sans SC",sans-serif;font-synthesis:weight;font-size:clamp(26px,5.5vw,43px);letter-spacing:-.02em;line-height:1.1;margin:0;white-space:nowrap}
 h1 span{color:#aaa}
 .brand{display:flex;align-items:center;gap:16px;margin:26px 0 12px}
 .mark{width:56px;height:56px;flex:0 0 auto;display:block}

@@ -37,6 +37,8 @@ python -m http.server 8765 --bind 127.0.0.1
 
 - 字体栈：`Consolas, SFMono-Regular, Liberation Mono, Noto Sans Mono CJK SC, monospace`
 - 因此 Latin 是 Consolas、汉字回落到系统等宽中文字体（`fonts` 在页面上是 0 个）
+- **品牌字例外**：`h1` 的中文用 `SimHei`（黑体，方形无衬线），并给 `h1` 单独开 `font-synthesis:weight`
+  —— 因为全局 `font-synthesis:none` 会挡掉黑体（只有 Regular 一个字重）的合成粗，不开就没法“方正”
 - 字号：正文/代码 13px（行高 1.85）、prompt 12px、tagline 13px、`.meta` 11px、`.colophon` 10px；
   移动端 420px 以下代码 11px、340px 以下 10px
 
