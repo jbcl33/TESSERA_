@@ -1,0 +1,42 @@
+:root{color-scheme:dark;background:#0c0c0c;color:#e5e5e5;font-family:Consolas,"SFMono-Regular","Liberation Mono","Noto Sans Mono CJK SC",monospace;font-synthesis:none}
+*{box-sizing:border-box}
+body{margin:0}
+main{width:min(100%,720px);margin:auto;padding:34px 28px 38px}
+p,h1,h2{margin:0}
+.prompt{font-size:12px;line-height:1.6;color:#aaa;overflow-wrap:anywhere}
+h1{font-size:clamp(26px,5.5vw,43px);letter-spacing:-.055em;line-height:1.1;margin:0;white-space:nowrap}
+h1 span{color:#aaa}
+.brand{display:flex;align-items:center;gap:16px;margin:26px 0 12px}
+.mark{width:56px;height:56px;flex:0 0 auto;display:block}
+.tagline{font-size:13px;letter-spacing:.08em;color:#bbb;margin-bottom:22px}
+
+/* 导航：只有形状，没有文字和下划线
+   白实心 = 当前页；白色描边 = 其他页 */
+.nav{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin:2px 0 30px;padding:0;list-style:none}
+.nav a{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;padding:0;color:#fff;text-decoration:none}
+.nav a:hover{background:#e5e5e5;color:#0c0c0c}
+.nav a:focus-visible{outline:1px dashed #fff;outline-offset:4px}
+.nav svg{width:12px;height:12px;display:block;fill:currentColor;stroke:none}
+.nav a:not([aria-current="page"]) svg{fill:none;stroke:currentColor;stroke-width:1.1}
+
+.terminal-frame{position:relative;border:1px solid #b9b9b9;padding:24px 20px 21px;margin-bottom:30px}
+.terminal-frame:before,.terminal-frame:after{position:absolute;left:-1px;right:-1px;height:10px;line-height:10px;pointer-events:none;color:#ddd;font:14px/10px monospace;background:#0c0c0c;overflow:hidden;white-space:nowrap;letter-spacing:0}
+.terminal-frame:before{content:"┌───────────────────────────────────────────────────────────────────────────────────────────────┐";top:-5px}
+.terminal-frame:after{content:"└───────────────────────────────────────────────────────────────────────────────────────────────┘";bottom:-5px}
+.frame-caption{position:absolute;top:-9px;right:18px;z-index:1;background:#0c0c0c;padding:0 7px;font-size:12px;font-weight:400;color:#bbb}
+.frame-corners i,.frame-corners b{position:absolute;right:-1px;background:#0c0c0c;color:#ddd;font:14px/10px monospace;z-index:2;font-style:normal;font-weight:400;pointer-events:none}
+.frame-corners i{top:-5px}
+.frame-corners b{bottom:-5px}
+
+pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;tab-size:4;font-family:inherit;font-size:13px;line-height:1.85}
+code{font-family:inherit;font-size:13px;line-height:1.85}
+.comment{color:#a8a8a8}
+a{color:#fff;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;display:inline-block;min-height:32px;padding:4px 0;vertical-align:baseline}
+a:hover{background:#e5e5e5;color:#0c0c0c}
+a:focus-visible{outline:1px dashed #fff;outline-offset:4px}
+.meta{font-size:11px;line-height:1.8;color:#aaa;margin-bottom:18px;overflow-wrap:anywhere}
+footer{margin-top:22px}
+.colophon{font-size:10px;line-height:1.8;color:#888;margin-top:27px}
+.cursor{color:#eee}
+@media(max-width:420px){main{padding:25px 16px 30px}.terminal-frame{padding:22px 12px 18px}code{font-size:11px;line-height:1.9}pre{font-size:11px}h1{font-size:29px}.prompt{font-size:11px}.tagline{font-size:12px}a{min-height:44px}.brand{gap:12px;margin-top:22px}.mark{width:44px;height:44px}.nav{gap:16px}.nav a{width:44px;height:44px}}
+@media(max-width:340px){main{padding-inline:12px}.terminal-frame{padding-inline:9px}code{font-size:10px}h1{font-size:26px}}
