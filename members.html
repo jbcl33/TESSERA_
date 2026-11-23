@@ -49,10 +49,14 @@ const Member members[] = {
       "https://lxygu10101-cell.github.io/mcu-blog/" },
     { "EMBEDDED SHOWROOM", "嵌入式系统展示",
       "https://embedded-systems-showroom.swirlingflair.chatgpt.site/#lobby" },
+    { "NEON LAB", "嵌入式学习 · 英语交流",
+      "https://neon-lab.onrender.com/english.html" },
+    { "ZRB", "宿舍值日 · 电工刷题 · 理论笔记",
+      "https://jbcl33.github.io/zrb/index.html#home" },
 };
 
-const size_t members_count = 2;
-const char updated[] = "2026-11-22";
+const size_t members_count = 4;
+const char updated[] = "2026-11-23";
 
 void open_member(const Member *m); <span class="comment">/* 打开个人站 */</span>
 
@@ -61,12 +65,14 @@ int main(void)
 <span class="comment">    // 成员入口：点击函数打开，新标签页</span>
     <a href="https://lxygu10101-cell.github.io/mcu-blog/" target="_blank" rel="noopener" aria-label="打开 MCU / NOTES 个人站（新标签页）">open_member(&amp;members[0]);</a> <span class="comment">// MCU / NOTES ↗</span>
     <a href="https://embedded-systems-showroom.swirlingflair.chatgpt.site/#lobby" target="_blank" rel="noopener" aria-label="打开 EMBEDDED SHOWROOM 个人站（新标签页）">open_member(&amp;members[1]);</a> <span class="comment">// EMBEDDED SHOWROOM ↗</span>
+    <a href="https://neon-lab.onrender.com/english.html" target="_blank" rel="noopener" aria-label="打开 NEON LAB 个人站（新标签页）">open_member(&amp;members[2]);</a> <span class="comment">// NEON LAB ↗</span>
+    <a href="https://jbcl33.github.io/zrb/index.html#home" target="_blank" rel="noopener" aria-label="打开 ZRB 个人站（新标签页）">open_member(&amp;members[3]);</a> <span class="comment">// ZRB ↗</span>
     return 0;
 }</code></pre>
 </section>
 
 <footer>
-  <p class="meta">// 成员 2 · 更新 2026-11-22 · 未上线成员以 NULL 占位</p>
+  <p class="meta">// 成员 4 · 更新 2026-11-23 · 未上线成员以 NULL 占位</p>
   <p class="prompt">C:\百衲&gt; <span class="cursor" aria-hidden="true">_</span></p>
   <p class="colophon">百衲 / EMBEDDED · FIRMWARE · HARDWARE</p>
 </footer>

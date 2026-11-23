@@ -80,9 +80,13 @@ assets/favicon.ico            16/32/48/64 多尺寸图标（透明底）
 |---|---|---|
 | MCU / NOTES | 嵌入式 · STM32 · C | https://lxygu10101-cell.github.io/mcu-blog/ |
 | EMBEDDED SHOWROOM | 嵌入式系统展示 | https://embedded-systems-showroom.swirlingflair.chatgpt.site/#lobby |
+| NEON LAB | 嵌入式学习 · 英语交流 | https://neon-lab.onrender.com/english.html |
+| ZRB | 宿舍值日 · 电工刷题 · 理论笔记 | https://jbcl33.github.io/zrb/index.html#home |
 
 > `EMBEDDED SHOWROOM` 这个显示名是从域名推出来的，**待成员本人确认**。
 > `MCU / NOTES` 的介绍文字取自其站点 `<meta name="description">`。
+> `NEON LAB` 取自站点自身标识（`NEON / LAB`，`ONE LAB / TWO WORLDS`），`ZRB` 取自站点路径；
+> 这两个显示名与分工**待本人确认**。链接给的是本人指定的具体页（`english.html`、`#home`），不是站点首页。
 
 ## 部署
 
